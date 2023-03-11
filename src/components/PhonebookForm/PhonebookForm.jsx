@@ -33,6 +33,7 @@ const Phonebook = ({onSubmit}) => {
         onSubmit({
             name: name,
             number: number,
+            id: nanoid(),
         });
         // console.log(onSubmit)
 
